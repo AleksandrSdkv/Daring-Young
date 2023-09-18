@@ -1,8 +1,14 @@
 .swiper__container {
   display: flex;
   justify-content: space-between;
+  gap: 250px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1700px) {
+  .swiper__container {
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 1050px) {
   .swiper__container {
     flex-direction: column;
   }
