@@ -1,0 +1,23 @@
+.detail__paragraph {
+  margin: 30px 0 20px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+  max-width: 200px;
+}
+.detail__paragraph_green {
+  color: #0ed984;
+}
+.detail__paragraph_blue {
+  color: #3577f6;
+}
+.detail__paragraph_purple {
+  color: #d72df3;
+}
+@media screen and (max-width: 500px) {
+  .detail__paragraph {
+    margin: 20px 0 10px;
+    font-size: 26px;
+  }
+}

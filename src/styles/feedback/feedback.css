@@ -1,0 +1,33 @@
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 160px;
+  background: #f3f3f3;
+  align-items: center;
+}
+@media screen and (max-width: 1750px) {
+  .feedback {
+    padding: 150px 70px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .feedback {
+    padding: 50px 50px;
+    gap: 365px;
+    padding: 150px 70px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .feedback {
+    padding: 138px 38px;
+    gap: 55px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .feedback {
+    flex-direction: column;
+    gap: 1px;
+    padding: 75px 20px;
+  }
+}

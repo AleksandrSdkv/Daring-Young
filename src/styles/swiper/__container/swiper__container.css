@@ -1,0 +1,15 @@
+.swiper__container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+  .swiper__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .swiper__container {
+    place-self: center;
+  }
+}

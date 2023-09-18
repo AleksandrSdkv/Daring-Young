@@ -1,0 +1,13 @@
+.detail__discription {
+  margin: 0;
+  color: #615d5d;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+@media screen and (max-width: 500px) {
+  .detail__discription {
+    font-size: 18px;
+  }
+}

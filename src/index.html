@@ -10,75 +10,153 @@
 <body>
 
     <main>
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <header class="header__type_beginer">
-                        <div class="header__logo">
-                            <p class="header__element">учимся</p>
-                            <p class="header__img"></p>
-                            <p class="header__element">Онлайн</p>
+        <!-- Классы библиотечного слайдера -->
+        <div class="main">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Первый слайд -->
+                    <div class="swiper-slide">
+                        <header class="header">
+                            <div class="header__logo">
+                                <p class="header__element">учимся</p>
+                                <p class="header__img"></p>
+                                <p class="header__element header__element_type_green">Онлайн</p>
+                            </div>
+                        </header>
+                        <!-- Несколько слоев фона используется mix-blend-mode: multiply -->
+                        <div class="swiper__background_green"></div>
+                        <div class="swiper__color_green">
+                            <div class="slider__picture"></div>
                         </div>
-                    </header>
 
-                    <div class="back"></div>
-
-                    <div class="swiper__background">
-                        <div class="picture"></div>
-                    </div>
-
-
-                    <div class="swiper__container">
-                        <div class="swiper__content">
-                            <p class="swiper__name-slide">Новички</p>
-                            <h1 class="swiper__title">Сделайте шаг к новой профессии</h1>
-                            <span class="swiper__span">Курсы, которые помогут освоить востребованную профессию
+                        <div class="swiper__container">
+                            <div class="swiper__content">
+                                <p class="swiper__name-slide_green">Новички</p>
+                                <h1 class="swiper__title">Сделайте шаг к новой профессии</h1>
+                                <span class="swiper__span">Курсы, которые помогут освоить востребованную профессию
                                 с нуля или изучить новую специализацию</span>
-                        </div>
+                            </div>
 
-                        <div class="swiper__picture">
-                            <div class="swiper__information-button">Подробнее</div>
+                            <div class="swiper__picture">
+                                <div class="swiper__information-button swiper__information-button_green">Подробнее</div>
+                            </div>
                         </div>
                     </div>
 
+                    <!-- Второй слайд -->
+                    <div class="swiper-slide">
+                        <header class="header">
+                            <div class="header__logo">
+                                <p class="header__element">учимся</p>
+                                <p class="header__img"></p>
+                                <p class="header__element header__element_type_blue">Онлайн</p>
+                            </div>
+                        </header>
+                        <!-- Несколько слоев фона используется mix-blend-mode: multiply -->
+                        <div class="swiper__background_blue"></div>
+                        <div class="swiper__color_blue">
+                            <div class="slider__picture"></div>
+                        </div>
 
+                        <div class="swiper__container">
+                            <div class="swiper__content">
+                                <p class="swiper__name-slide_blue">Специалисты</p>
+                                <h2 class="swiper__title">Сделайте шаг к росту карьеры</h2>
+                                <span class="swiper__span">Курсы для специалистов с опытом, чтобы развиваться
+                                в профессии и открывать новые возможности в карьере</span>
+                            </div>
 
+                            <div class="swiper__picture">
+                                <div class="swiper__information-button swiper__information-button_blue">Подробнее</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Третий слайд -->
+                    <div class="swiper-slide">
+                        <header class="header">
+                            <div class="header__logo">
+                                <p class="header__element">учимся</p>
+                                <p class="header__img"></p>
+                                <p class="header__element header__element_type_purple">Онлайн</p>
+                            </div>
+                        </header>
+                        <!-- Несколько слоев фона используется mix-blend-mode: multiply -->
+                        <div class="swiper__background_purple"></div>
+                        <div class="swiper__color_purple">
+                            <div class="slider__picture"></div>
+                        </div>
+
+                        <div class="swiper__container">
+                            <div class="swiper__content">
+                                <p class="swiper__name-slide_purple">Руководители</p>
+                                <h3 class="swiper__title">Сделайте шаг к новым решениям</h3>
+                                <span class="swiper__span">Курсы для руководителей, чтобы развивать управленческие навыки и растить бизнес</span>
+                            </div>
+
+                            <div class="swiper__picture">
+                                <div class="swiper__information-button swiper__information-button_purple">Подробнее</div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <header class="header__type_beginer">
-                        <div class="header__logo">
-                            <p class="header__element">учимся</p>
-                            <p class="header__img"></p>
-                            <p class="header__element">Онлайн</p>
-                        </div>
-                    </header>
+                <!-- Классы от библиотеки для управления пагинацией и стрелками -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
 
-                    <div class="back"></div>
-
-                    <div class="swiper__background">
-                        <div class="picture"></div>
-                    </div>
-
-
-                    <div class="swiper__container">
-                        <div class="swiper__content">
-                            <p class="swiper__name-slide">Новички</p>
-                            <h1 class="swiper__title">Сделайте шаг к росту карьеры</h1>
-                            <span class="swiper__span">Курсы, которые помогут освоить востребованную профессию
-                            с нуля или изучить новую специализацию</span>
-                        </div>
-
-                        <div class="swiper__picture">
-                            <div class="swiper__information-button">Подробнее</div>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <!-- Секция дополнительного описания курсов -->
+        <section class="detail">
+            <div class="detail__box">
+                <div class="detail__beginer detail__specialist">
+                    <img class="detail__img" src="<%=require('./image/graduatedGreen.svg')%>" alt="Изображение студента">
+                    <p class="detail__paragraph">Получите <span class="detail__paragraph_green">професси</span>
+                    </p>
+                    <span class="detail__discription">Базовые курсы для изучения новой сферы
+                        или профессии — с практикой и помощью
+                        в трудоустройстве</span>
+                </div>
+                <div class="detail__middle detail__specialist"> <img class="detail__img" src="<%=require('./image/blue.svg')%>" alt="Изображение графика">
+                    <p class="detail__paragraph">Растите <span class="detail__paragraph_blue">в профессии</span></p>
+                    <span class="detail__discription">Курсы продвинутого уровня для тех, кто хочет усилить позиции в текущей профессии, вырасти
+                        в доходе, изучить новые инструменты</span>
+                </div>
+                <div class="detail__senior detail__specialist"> <img class="detail__img" src="<%=require('./image/developPurple.svg')%>" alt="Изображение руководителя">
+                    <p class="detail__paragraph">Управляйте <span class="detail__paragraph_purple">эффективно</span></p>
+                    <span class="detail__discription">Курсы для руководителей, чтобы научиться эффективно решать сложные задачи
+                        в управлении командой и бизнесом</span>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
+        </section>
+        <section class="feedback">
+
+            <div class="feedback__title-group">
+                <h4 class="feedback__title">Сделайте шаг к новой профессии</h4>
+                <p class="feedback__paragraph">Расскажите нам о своих целях и мы поможем выбрать подходящую программу.</p>
+            </div>
+            <div class="feedback__form-group">
+                <form class="form" name="popup-form">
+                    <fieldset class="form__group">
+                        <input id="name-input" class="form__input form__input_type_name" type="text" name="name" placeholder="Ваше имя" required minlength="2" maxlength="40">
+                        <input id="number-input" class="form__input form__input_type_number" type="text" name="number" placeholder="+7 (000) 000-00-00" required minlength="6" maxlength="11">
+                        <button class="form__bottom-submit" type="submit">Оставить заявку</button>
+
+                    </fieldset>
+                    <p class="feedback__agreement">Отправляя заявку, я соглашаюсь на обработку <a ref="#" target="_blank" class="feedback__agreement-line">персональных данных</a></p>
+                </form>
+            </div>
+
+        </section>
     </main>
+    <footer class="footer">
+        <div class="footer__logo">
+            <p class="footer__element ">учимся</p>
+            <p class="footer__img "></p>
+            <p class="footer__element footer__element_type_green ">Онлайн</p>
+        </div>
+    </footer>
 </body>
 
 </html>

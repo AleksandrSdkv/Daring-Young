@@ -1,0 +1,16 @@
+.swiper__picture {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 296px;
+  margin-right: 235px;
+}
+@media screen and (max-width: 1400px) {
+  .swiper__picture {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .swiper__picture {
+    margin-bottom: 105px;
+  }
+}

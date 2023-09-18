@@ -1,0 +1,26 @@
+.swiper__span {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
+  text-align: left;
+  max-width: 587px;
+  display: block;
+}
+@media screen and (max-width: 1400px) {
+  .swiper__span {
+    max-width: 587px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .swiper__span {
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .swiper__span {
+    font-size: 20px;
+    max-width: 315px;
+  }
+}

@@ -1,0 +1,22 @@
+.swiper__information-button {
+  all: unset;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  border: 2px dashed;
+  border-color: #ffffff;
+  box-sizing: border-box;
+  display: inline-flex;
+  padding: 18px 50px;
+}
+
+.swiper__information-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+}
+.swiper__information-button_blue:hover {
+  color: #3577f6;
+}

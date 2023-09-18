@@ -1,0 +1,19 @@
+.detail__box {
+  display: grid;
+  margin: 190px 160px 200px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 90px;
+}
+
+@media screen and (max-width: 1100px) {
+  .detail__box {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    margin: 190px px 200px 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .detail__box {
+    margin: 74px 17px 74px;
+  }
+}

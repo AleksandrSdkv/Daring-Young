@@ -1,0 +1,33 @@
+.swiper__background_purple {
+  background-color: #9c10b4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.swiper__color_purple {
+  background: #630773;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  clip-path: polygon(74.4% 0%, 100.1% 0%, 100.1% 100.3%, 63.4% 99.8%);
+}
+@media screen and (max-width: 500px) {
+  .swiper__color_purple {
+    clip-path: polygon(0% 78.8%, 100.1% 67%, 100% 100%, 0% 100%);
+  }
+}
+
+.swiper__name-slide_purple {
+  border-bottom: 1px solid #d72df3;
+  color: #d72df3;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  padding-bottom: 8px;
+  margin: 0;
+  text-align: left;
+  width: 140px;
+}

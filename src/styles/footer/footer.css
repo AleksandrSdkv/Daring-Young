@@ -1,0 +1,31 @@
+.footer {
+  background: #1d1a1a;
+}
+.footer__element {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+}
+.footer__img {
+  background-image: url(../../image/worldwideOne.svg);
+  width: 30px;
+  height: 30px;
+  margin: 0 5px 0;
+}
+
+.footer__element_type_green {
+  color: #0ed984;
+}
+.footer__logo {
+  display: flex;
+  padding: 20px 0 18px 160px;
+}
+@media screen and (max-width: 500px) {
+  .footer__logo {
+    padding: 20px 0 18px 85px;
+  }
+}
