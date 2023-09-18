@@ -10,13 +10,13 @@
   margin-top: 25px;
   margin-bottom: 45px;
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1450px) {
   .swiper__title {
     font-size: 74px;
     width: 700px;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .swiper__title {
     font-size: 54px;
     width: 638px;
